@@ -231,8 +231,9 @@ type alias NamedElmRecord =
 
 # Generating code
 
-The main function exposed by this module is `elmDefs`, which returns a
-`Set Definition` (where `Definition` is from the `elm-syntax` package). To
-transform a `Definition` into some files on disk, see `/test/test.hs`.
+The main function exposed by this module is `elmDefs`, which returns
+a `Set Definition` (where `Definition` is from the `elm-syntax`
+package). For examples on how to transform a `Definition` into some
+files on disk, see `/test/test.hs`.
 
 
