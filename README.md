@@ -228,3 +228,11 @@ type alias ExampleType =
 type alias NamedElmRecord =
   { stringField : String, listOfStrings : List String }
 ```
+
+# Generating code
+
+The main function exposed by this module is `elmDefs`, which returns a
+`Set Definition` (where `Definition` is from the `elm-syntax` package). To
+transform a `Definition` into some files on disk, see `/test/test.hs`.
+
+
