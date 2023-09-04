@@ -229,7 +229,7 @@ type alias NamedElmRecord =
   { stringField : String, listOfStrings : List String }
 ```
 
-# Generating code
+## Generating code
 
 The main function exposed by this module is `elmDefs`, which returns
 a `Set Definition` (where `Definition` is from the `elm-syntax`
